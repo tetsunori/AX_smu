@@ -73,4 +73,16 @@ TAVILY_API_KEY=your_tavily_api_key_here
 uv run langgraph dev
 ```
 
+#### Windows (PowerShell)
+
+```powershell
+$env:PYTHONUTF8=1; uv run langgraph dev --no-reload --allow-blocking
+```
+
+#### Mac/Linux (bash/zsh)
+
+```
+PYTHONUTF8=1 uv run langgraph dev --no-reload --allow-blocking
+```
+
 브라우저에서 `http://127.0.0.1:2024` 자동 열림
